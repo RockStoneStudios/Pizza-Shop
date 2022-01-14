@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li className={styles.listItem}>Contact</li>
             </ul>
         </div>
-        <Link href= "/cart" passHref>
+        <Link href= "/cart" as={`/cart`} passHref>
 
         <div className={styles.item}>
              <div className={styles.cart}>
