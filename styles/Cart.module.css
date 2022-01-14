@@ -1,0 +1,144 @@
+.container{
+    padding: 50px;
+    display: flex;
+}
+
+.imgContainer{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.left{
+    flex: 2;
+}
+
+.right{
+    flex: 1;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.name{
+    font-weight: 500;
+    color: #c23616;
+    font-size: 18px;
+}
+ 
+
+.total {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 90%;
+    max-height: 300px;
+    background-color: #335;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.totalTextTitle{
+    margin-right: 10px;
+}
+
+.button{
+    height: 30px;
+    color: #c73717;
+    cursor: pointer;
+    font-weight: 900;
+    margin-top: 15px;
+    
+}
+
+.button:hover{
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+ @media screen  and (max-width : 480px){
+     .container {
+         flex-direction: column;
+         padding: 20px;
+     }
+
+     .table {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+     }       
+      .trTitle{
+          display: none;
+      }     
+
+     .tr{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 20px;
+     }
+
+     .imgContainer{
+         width: 35vw;
+         height: 35vw;
+     }
+
+     .name, .total{
+         font-size: 24px;
+     }
+
+     .extras, .price, .quantity{
+         font-size: 22px;
+     }
+     
+
+      .price::before{
+          content: "Price : ";
+          font-weight: 500;
+      }
+
+      .quantity::before{
+        content: "Quantity : ";
+        font-weight: 500;
+       
+    }
+    .total::before{
+        content: "Total : ";
+        font-weight: 500;
+    }
+
+    .title{
+         text-align: center;
+         font-size: 32px;
+    }
+
+.wrapper {
+    width: 100%;
+}
+
+.totalText{
+    margin-top: 8px;
+}
+
+.totalTextTitle{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+     
+ }
+
