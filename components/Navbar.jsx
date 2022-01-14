@@ -1,6 +1,6 @@
 import styles from '../styles/Navbar.module.css'
 import Image from 'next/image';
-import Link from 'next/Link';
+import Link from 'next/link';
 const Navbar = () => {
     return (
     <div className={styles.container}>
