@@ -48,6 +48,7 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .status{
@@ -136,6 +137,7 @@
         align-items: center;
         width: 100%;
         justify-content: center;
+        margin-left: 10px;
     }
     .done, .undone, .inProgress{
         margin-bottom: 20px;
