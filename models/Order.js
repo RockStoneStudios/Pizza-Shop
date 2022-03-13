@@ -23,4 +23,8 @@ const OrderSchema = new mongoose.Schema({
          type : Number,
          required : true
      }
-})
+});
+
+
+
+export default mongoose.models.Order || mongoose.model('Order',OrderSchema);

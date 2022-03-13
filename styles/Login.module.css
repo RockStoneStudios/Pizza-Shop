@@ -1,0 +1,38 @@
+.container{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 40px;
+    margin-bottom:20px;
+    padding: 0px 10px;
+
+}
+
+.button{
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: teal;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.error{
+  
+    
+    font-size: 18px;
+    border-radius: 10px;
+    color: rgb(231, 41, 41);
+}

@@ -11,7 +11,9 @@ const Navbar = () => {
              <Image src= "/img/telephone.png" alt= "" width= "32px" height="32px"/>
          </div>
           <div className={styles.texts}>
+              <Link href="/orders">
               <div className= {styles.text}>Order Now</div>
+              </Link>
               <div className= {styles.text}>3508436568</div>
           </div>
         </div>
@@ -21,6 +23,7 @@ const Navbar = () => {
 
                 <li className={styles.listItem}>HomePage</li>
                 </Link>
+
                 <li className={styles.listItem}>Products</li>
                 <li className={styles.listItem}>Menu</li>
                 <h2 className={styles.title}>RockStone</h2>

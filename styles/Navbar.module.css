@@ -13,10 +13,10 @@
   }
   .title{
     padding: 15px;
-    margin: 0 25px;
+    margin: 0 30px;
     font-family: Comforter;
-    letter-spacing: 3px;
-    font-size: 30px;
+    letter-spacing: 3.2px;
+    font-size: 32px;
   }
   
   .item {
@@ -69,6 +69,7 @@
     margin: 20px;
     font-weight: 500;
     cursor: pointer;
+    font-size: 19px;
   }
   
   .cart{

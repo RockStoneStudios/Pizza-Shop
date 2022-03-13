@@ -14,19 +14,13 @@ export default async function handler(req,res){
         }
     }
     if(method === "PUT") {
-        try{
-            
-           const product = await Product.create(req.body);
-           res.status(201).json(product);
-        }catch(error){
-            res.status(500).json(error);
-        }
+       
     }
     if(method === "DELETE") {
         try{
             
-           const product = await Product.create(req.body);
-           res.status(201).json(product);
+            await Product.findByIdAndDelete(id);
+           res.status(200).json("The product has been delete");
         }catch(error){
             res.status(500).json(error);
         }
